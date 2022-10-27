@@ -91,18 +91,6 @@ public class FoodStuff : MonoBehaviour
     {
         _rigidbody.constraints = constraints;
     }
-    
-    public void ScaleUp()
-    {
-        transform.DOScale(Vector3.one * 1.15f, 0.5f).SetEase(Ease.OutElastic); 
-       _isDoubleTapped = true;
-    }
-
-    public void ScaleDown()
-    {
-        transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutElastic);
-        _isDoubleTapped = false;
-    }
 
     public void MoveBackFoodArea(Transform backTransform)
     {

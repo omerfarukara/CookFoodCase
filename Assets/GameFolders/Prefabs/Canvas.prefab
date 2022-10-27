@@ -321,7 +321,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 07724c0496e8ba648ab2d8381f4e342f, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -8395,7 +8395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d38c4870918161241ae36cd626a73386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 75
+  time: 6
   extraTime: 30
   timerText: {fileID: 6479804854641104284}
   timer: {fileID: 5167727734424176491}

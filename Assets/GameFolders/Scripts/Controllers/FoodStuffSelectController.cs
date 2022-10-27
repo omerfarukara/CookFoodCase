@@ -43,15 +43,9 @@ public class FoodStuffSelectController : MonoBehaviour
         if (foodStuff == selectedFoodStuff && currentTime <= doubleTapTime)
         {
             _eventData.OnDoubleTapToFoodStuff?.Invoke(selectedFoodStuff);
-            selectedFoodStuff.ScaleUp();
         }
         else
         {
-            if (selectedFoodStuff)
-            {
-                selectedFoodStuff.ScaleDown();
-            }
-
             selectedFoodStuff = foodStuff;
             
             _eventData.OnSelectFoodStuffChanged?.Invoke();

@@ -266,6 +266,10 @@ PrefabInstance:
       propertyPath: settingsPanel
       value: 
       objectReference: {fileID: 443560095}
+    - target: {fileID: 262197874397999499, guid: c72bf293d06b3465d84a437734d6db54, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 479471596321761605, guid: c72bf293d06b3465d84a437734d6db54, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
